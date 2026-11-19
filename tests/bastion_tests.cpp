@@ -114,7 +114,7 @@ private slots:
         QVERIFY(Policy::portMatches("137:139", 138));
         QVERIFY(Policy::portMatches("80,443", 443));
         QVERIFY(!Policy::portMatches("80", -1));
-        QVERIFY(Policy::addressMatches("192.168.0.0/16", "192.168.12.140"));
+        QVERIFY(Policy::addressMatches("192.168.0.0/16", "192.168.1.50"));
         QVERIFY(!Policy::addressMatches("192.168.0.0/16", "10.0.0.1"));
         QVERIFY(Policy::addressMatches("fe80::/10", "fe80::1"));
 
