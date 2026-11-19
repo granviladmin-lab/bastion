@@ -1,0 +1,5 @@
+{
+  "%n rules": { "one": "%n rule", "other": "%n rules" },
+  "%n logs": { "one": "%n log", "other": "%n logs" },
+  "%n hits": { "one": "%n hit", "other": "%n hits" }
+}

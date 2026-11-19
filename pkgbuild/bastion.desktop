@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Bastion
+Comment=See this machine's firewall rules and logs, Check Point style
+Exec=bastion
+Icon=bastion
+Terminal=false
+Categories=System;Security;Network;
+Keywords=firewall;ufw;logs;security;checkpoint;
+StartupWMClass=bastion
